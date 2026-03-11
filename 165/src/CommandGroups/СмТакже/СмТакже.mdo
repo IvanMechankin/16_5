@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c42a4302-72a4-4713-95fc-968546a5559d">
+  <name>СмТакже</name>
+  <synonym>
+    <key>ru</key>
+    <value>См. также</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

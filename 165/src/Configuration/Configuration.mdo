@@ -49,11 +49,17 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ОперативныйУчёт</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <commandGroups>CommandGroup.Основные</commandGroups>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.СмТакже</commandGroups>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
