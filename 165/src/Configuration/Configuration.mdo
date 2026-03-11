@@ -66,7 +66,7 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
-  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.РасходДенег</documents>
   <documents>Document.НачислениеЗарплаты</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>

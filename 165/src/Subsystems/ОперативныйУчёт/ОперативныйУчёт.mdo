@@ -11,7 +11,7 @@
     <picture>CommonPicture.ОперативныйУчет</picture>
   </picture>
   <content>Document.ПриходнаяНакладная</content>
-  <content>Document.РасходнаяНакладная</content>
+  <content>Document.РасходДенег</content>
   <content>AccumulationRegister.ОстаткиНоменклатуры</content>
   <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>

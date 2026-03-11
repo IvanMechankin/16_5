@@ -7,13 +7,13 @@
     <listType typeId="eac84a46-6681-4051-a00f-2c611dfa5591" valueTypeId="abaa5389-dfb4-4f33-b679-3900f00d43df"/>
     <managerType typeId="bd0b4e11-01bd-4fb1-a46f-7e0f3cc87843" valueTypeId="8891eff8-02be-4f10-a8c4-0883516999f6"/>
   </producedTypes>
-  <name>РасходнаяНакладная</name>
+  <name>РасходДенег</name>
   <synonym>
     <key>ru</key>
-    <value>Расходная накладная</value>
+    <value>Расход денег</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.РасходнаяНакладная.StandardAttribute.Number</inputByString>
+  <inputByString>Document.РасходДенег.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>

@@ -8,7 +8,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РасходнаяНакладная.StandardCommand.Create</command>
+      <command>Document.РасходДенег.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
@@ -32,7 +32,7 @@
     <placementFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
-      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходДенег.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -47,7 +47,7 @@
     <orderFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
-      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходДенег.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
