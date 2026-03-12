@@ -87,10 +87,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="28e67f2a-5473-48c8-b0b5-23dc306f8fe8">
-    <name>Контрагент</name>
+    <name>Поставщик</name>
     <synonym>
       <key>ru</key>
-      <value>Контрагент</value>
+      <value>Поставщик</value>
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
@@ -156,6 +156,44 @@
     <synonym>
       <key>ru</key>
       <value>Сумма EUR</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c9b652a-4eb3-4be7-a66b-f4daa069f563">
+    <name>КурсUSD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс USD</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc38a95e-0e40-4e85-a79a-8f06ceea763c">
+    <name>КурсEUR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс EUR</value>
     </synonym>
     <type>
       <types>Number</types>

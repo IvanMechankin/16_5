@@ -77,7 +77,7 @@
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>

@@ -64,7 +64,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="e5346aa8-c4b4-4b82-b4b0-f9ba3cd78b69">
@@ -124,6 +125,83 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7892ed60-8133-430d-8a04-d9d27181a77c">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Соглашения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cc7875a-2008-49c2-9bd8-16bbacddaeed">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9f9d5e3-d7ee-4fbc-90be-9838e4162365">
+    <name>КурсUSD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс USD</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2db63d4-344d-4e0e-9b67-98f59199632e">
+    <name>КурсEUR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс EUR</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="01b98052-3262-4872-8a75-6228707899f7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="5d371be8-ad53-40a7-a072-8bb5cbfc9494">
     <producedTypes>
       <objectType typeId="c90d60d1-4bd8-4b46-a0e2-bd7661897016" valueTypeId="48d4606f-18e2-4824-8ce5-d012e4583b9b"/>

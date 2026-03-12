@@ -14,7 +14,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</command>
+      <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -23,7 +23,7 @@
   <commandsPlacement>
     <placementFragments>
       <group>CommandGroup.Основные</group>
-      <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
@@ -39,7 +39,7 @@
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.Основные</group>
-      <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Справочники</group>

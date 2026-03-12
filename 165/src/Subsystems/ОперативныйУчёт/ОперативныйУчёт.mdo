@@ -12,7 +12,7 @@
   </picture>
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.РаходДенег</content>
-  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>AccumulationRegister.Взаиморасчеты</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Соглашения</content>
 </mdclass:Subsystem>

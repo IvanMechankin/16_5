@@ -8,10 +8,10 @@
     <recordKeyType typeId="6b0f99f8-8fe7-4666-9261-4f73784ccb04" valueTypeId="79b45a6c-5dfc-46f9-84ed-7f2f8d958eda"/>
     <recordType typeId="eabe1009-091c-4df9-96b1-c72d05390aed" valueTypeId="856474c2-e3cb-4b4e-9418-4c7eae811e0e"/>
   </producedTypes>
-  <name>ОстаткиНоменклатуры</name>
+  <name>Взаиморасчеты</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки номенклатуры</value>
+    <value>Взаиморасчеты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
@@ -114,6 +114,34 @@
     </synonym>
     <type>
       <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d0cdda58-91a7-4f5f-94f2-54c677e21379">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Соглашения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bbd92fe1-2b44-4a3b-a855-a2fc5b52ebe0">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
