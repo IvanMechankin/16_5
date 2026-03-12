@@ -106,20 +106,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="93b199d3-29f5-4233-96bb-8fb6457c12ce">
-    <name>Номенклатура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номенклатура</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Номенклатура</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
   <dimensions uuid="d0cdda58-91a7-4f5f-94f2-54c677e21379">
     <name>Соглашение</name>
     <synonym>
@@ -135,10 +121,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="bbd92fe1-2b44-4a3b-a855-a2fc5b52ebe0">
-    <name>Поставщик</name>
+    <name>Контрагент</name>
     <synonym>
       <key>ru</key>
-      <value>Поставщик</value>
+      <value>Контрагент</value>
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
