@@ -611,7 +611,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.РаходДенег</types>
+      <types>DocumentObject.РасходДенег</types>
     </valueType>
     <view>
       <common>true</common>
