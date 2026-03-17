@@ -15,4 +15,9 @@
   <content>AccumulationRegister.Взаиморасчеты</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Соглашения</content>
+  <content>Catalog.ДополнительныеЗначения</content>
+  <content>ChartOfCharacteristicTypes.СвойстваОбъектов</content>
+  <content>InformationRegister.ЗначенияСвойствОбъекта</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Report.СостояниеВзаиморасчётов</content>
 </mdclass:Subsystem>
